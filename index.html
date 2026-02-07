@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Имиджборд</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Имиджборда коляки</h1>
+
+    <!-- Форма добавления поста -->
+    <form id="postForm">
+      <textarea id="comment" placeholder="Введите комментарий" required></textarea>
+      <input type="url" id="imageUrl" placeholder="Ссылка на изображение (опционально)" />
+      <button type="submit">Добавить пост</button>
+    </form>
+
+    <!-- Раздел для постов -->
+    <div id="posts"></div>
+  </div>
+
+  <!-- Подключение скрипта -->
+  <script src="script.js"></script>
+</body>
+</html>
